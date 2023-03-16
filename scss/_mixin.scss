@@ -1,0 +1,17 @@
+/* MIXIN */
+@mixin textos {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 400;
+    color: $color_4;
+}
+@mixin titulos {
+    text-align: center;
+	font-weight: 700;
+	color: $color_1;
+	padding: 2rem;
+}
+@mixin margin{
+    margin: 1rem;
+	padding: 1rem 2rem;
+}

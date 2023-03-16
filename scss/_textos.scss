@@ -1,0 +1,21 @@
+/*TEXTOS*/
+.titulos, h2, h3, h4, h5 {
+	@include titulos;
+}
+
+.textos{
+    @include textos;
+}
+.textoTesti{
+	@include textos;
+	font-style: italic;
+}
+.textosPubli{
+	@include textos;
+	font-size: 0.7rem
+}
+.nosDescripcion{
+	@include textos;
+	padding: 0.5rem 2rem;
+	margin: 0.5rem 3rem;
+}
