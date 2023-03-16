@@ -34,9 +34,11 @@ h1 {
   letter-spacing: 0.15rem;
   font-family: Charmonman;
 }
-.nav-link:hover{
-	text-decoration: underline;
+
+.nav-link:hover {
+  text-decoration: underline;
 }
+
 /* CAROUSEL */
 .but {
   height: auto;
