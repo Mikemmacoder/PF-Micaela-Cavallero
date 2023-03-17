@@ -45,7 +45,6 @@
 		border: rgb(177, 177, 177) solid 1px;
 		background-color: $color_3;
 	}
-	
 }
 
 @media (max-width: 500px) {
@@ -64,12 +63,7 @@
 		margin: 0.5rem;
 	}
 }
-@media (max-width: 320px) {
-	.contenedorHijo {
-		margin: 0.5rem;
-		padding: 0.5rem;
-	}
-}
+
 @media (max-width: 360px) {
 	.form-control{
 		width: 94%;
@@ -89,5 +83,11 @@
 	}
 	h1{
 		display: none;
+	}
+}
+@media (max-width: 320px) {
+	.contenedorHijo {
+		margin: 0.5rem;
+		padding: 0.5rem;
 	}
 }
